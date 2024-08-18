@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Resume</h1>
+        </div>
+    </header>
+    <div class="container main">
+        <div class="section">
+            <h2>Contact Information</h2>
+            <p>Name: Ankit Bisen</p>
+            <p>Email: ankit@example.com</p>
+            <p>Phone: +91-1234567890</p>
+        </div>
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Software Developer with 3.7 years of experience in the Banking domain, specializing in Anti-money laundering and Financial crime. Proficient in SDLC processes, test-driven development, and agile methodologies.</p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>NetReveal Modules: TTR, SMR, Service Now, Data Acquisition, Scenarios Manager, Alerts</li>
+                <li>Unix Shell scripting</li>
+                <li>Java Spring Boot</li>
+                <li>Agile methodologies</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Work Experience</h2>
+            <h3>Software Developer at XYZ Bank</h3>
+            <p>June 2020 - Present</p>
+            <ul>
+                <li>Developed and maintained NetReveal modules for anti-money laundering and financial crime detection.</li>
+                <li>Created Unix Shell scripts to automate various tasks.</li>
+                <li>Worked on Java Spring Boot tasks based on business needs.</li>
+                <li>Resolved issues and escalated problems with knowledgeable support and quality service.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <p>Bachelor of Technology in Computer Science, ABC University, 2020</p>
+        </div>
+    </div>
+</body>
+</html>
